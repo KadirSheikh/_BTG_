@@ -1,0 +1,27 @@
+.fraction {
+    display: inline-block;
+    padding: 0 0.2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fraction:before {
+    border-bottom: 1px solid #000;
+    content: attr(top);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
+
+.fraction:after {
+    content: attr(bottom);
+    display: block;
+    line-height: 1.6em;
+    padding: 0 0.2em;
+}
+
+.contact-home {
+    width: 100%;
+    height: 50vh;
+    background: url("../../assets/hero/conatct.png") no-repeat;
+}

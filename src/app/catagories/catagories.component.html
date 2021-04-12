@@ -1,0 +1,215 @@
+<section id="careers">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active text-dark">
+                <div style="height: 55vh; background-color: var(--danger) ;background-size: cover ; background-repeat: no-repeat;  ">
+                    <div class="container text-center slide1" style="position: relative; top: 55%;">
+
+                        <h1 class="text-white">{{data.heading}}</h1>
+                        <h4 class="text-capitalize text-white text-center">{{data.subheading}}</h4>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section style="padding: 100px 0;">
+    <div class="container">
+        <div class="row  mx-auto">
+            <div class="col-sm-5 justify-content-center">
+                <img [src]="data.img1" style="width: 100%; height: 100%;" alt="">
+            </div>
+
+            <div class="col-sm-7 ">
+                <a href="#lev4">
+                    <div class="strip level1 text-dark">
+                        Autonomous Control
+                    </div>
+                </a>
+                <a href="#lev3">
+                    <div class="strip level2 text-dark">
+                        Process Control
+                    </div>
+                </a>
+                <a href="#lev2">
+                    <div class="strip level3 text-dark">
+                        Vizualization, Diagnostic
+                    </div>
+                </a>
+                <a href="#lev1">
+                    <div class="strip level4 text-dark">
+                        Smart Equipment
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <p class="mt-4 text-justify">
+            {{data.para1}}
+        </p>
+        <p class="mt-4 text-justify">
+
+            {{data.para2}}
+
+        </p>
+    </div>
+</section>
+
+<section class="bg-light" style="padding: 100px 0;">
+    <div class="container">
+        <h3 class="text-center">Our featured solutions</h3>
+        <!-- <p class="text-center no-wrap">
+            We offer optimized, customized solutions for a range of applications. Below are some key examples of the
+            challenges we can overcome. If your process isn’t featured here, contact our team to learn more
+        </p>
+
+        <div class="row mx-auto my-4">
+            <div class="col-sm-4">
+                <div class="card border-0 shadow-sm bg-white m-2">
+                    <div class="card-body">
+                        <h6>Consistency control</h6>
+                        <p>
+                            Optimize pulp & paper productivity through accurate consistency management as fundamental
+                            for improved economic benefits
+                        </p>
+                        <a href="#" class="text-danger">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-0 shadow-sm bg-white m-2">
+                    <div class="card-body">
+                        <h6>Consistency control</h6>
+                        <p>
+                            Optimize pulp & paper productivity through accurate consistency management as fundamental
+                            for improved economic benefits
+                        </p>
+                        <a href="#" class="text-danger">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-0 shadow-sm bg-white m-2">
+                    <div class="card-body">
+                        <h6>Consistency control</h6>
+                        <p>
+                            Optimize pulp & paper productivity through accurate consistency management as fundamental
+                            for improved economic benefits
+                        </p>
+                        <a href="#" class="text-danger">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-0 shadow-sm bg-white m-2">
+                    <div class="card-body">
+                        <h6>Consistency control</h6>
+                        <p>
+                            Optimize pulp & paper productivity through accurate consistency management as fundamental
+                            for improved economic benefits
+                        </p>
+                        <a href="#" class="text-danger">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-0 shadow-sm bg-white m-2">
+                    <div class="card-body">
+                        <h6>Consistency control</h6>
+                        <p>
+                            Optimize pulp & paper productivity through accurate consistency management as fundamental
+                            for improved economic benefits
+                        </p>
+                        <a href="#" class="text-danger">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-0 shadow-sm bg-white m-2">
+                    <div class="card-body">
+                        <h6>Consistency control</h6>
+                        <p>
+                            Optimize pulp & paper productivity through accurate consistency management as fundamental
+                            for improved economic benefits
+                        </p>
+                        <a href="#" class="text-danger">Know more</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div id="lev4" class="row my-4 mx-auto text-center justify-content-center" style="padding: 60px 0;">
+            <img [src]="data.img2" style="width: 31%;; height: 31%;" />
+        </div>
+
+        <div id="lev3" class="row my-4 mx-auto justify-content-center" style="padding: 60px 0;">
+            <div class="col-sm-4">
+                <p class="mb-0"><strong>CONTROL LOOP PERFORMANCE MANAGEMENT</strong></p>
+                <p>Ability to identify and tune low-performing Control Loops to increase overall performance</p>
+
+                <p class="mb-0"><strong>ADVANCED PROCESS CONTROL</strong></p>
+                <p>Standardize and centerline the control strategy of process to increase focus</p>
+            </div>
+            <div class="col-sm-4">
+                <img [src]="data.img3" style="width: 100%;; height: 100%;" />
+            </div>
+            <div class="col-sm-4">
+                <p class="mb-0 text-right"><strong>PREDICTIVE MODELLING SOLUTIONS</strong></p>
+                <p class="text-right">Usage of softsensors to reduce variability and optimize output leading to optimal product quality</p>
+            </div>
+        </div>
+
+        <div id="lev2" class="row my-4 mx-auto justify-content-center" style="padding: 60px 0;">
+            <div class="col-sm-4">
+                <p class="mb-0"><strong>ONLINE ANALYZERS</strong></p>
+                <p>Online measurements of charge, fiber morphology and freeness with SPC, SPM, DRT</p>
+
+                <p class="mb-0"><strong>PERFORMANCE SOLUTIONS</strong></p>
+                <p>Advanced services and diagnosis to unlock process capabilities and performance</p>
+            </div>
+            <div class="col-sm-4">
+                <img [src]="data.img4" style="width: 100%;; height: 100%;" />
+            </div>
+            <div class="col-sm-4">
+                <p class="mb-0 text-right"><strong>OPERATIONAL INTELLIGENCE</strong></p>
+                <p class="text-right">Enhanced decision making capabilities based on process knowledge, keeping production at high level with best quality with dataPARC</p>
+
+                <p class="mb-0 text-right"><strong>OPERATIONAL SAFETY</strong></p>
+                <p class="text-right">Optimum Yankee safety with advanced vibration monitoring solution and experience </p>
+            </div>
+        </div>
+
+        <div id="lev1" class="row my-4 mx-auto justify-content-center" style="padding: 60px 0;">
+            <div class="col-sm-4">
+                <p class="mb-0"><strong>FIBER MANAGEMENT</strong></p>
+                <p>Fiber quality and property improvement and control; refining, fiber morphology and drainage optimization</p>
+
+                <p class="mb-0"><a routerLink="/consistency-control"><strong class="text-dark">CONSISTENCY
+                            CONTROL</strong></a></p>
+                <p>Fiber, fines and ash consistency, monitoring and retention control</p>
+
+                <p class="mb-0"><strong>WET-END STABILITY</strong></p>
+                <p>Process chemical and fiber recovery improvement through charge and zeta potential measurement</p>
+            </div>
+            <div class="col-sm-4">
+                <img [src]="data.img5" style="width: 100%;; height: 100%;" />
+            </div>
+            <div class="col-sm-4">
+                <p class="mb-0 text-right"><strong>SHEET UNIFORMITY</strong></p>
+                <p class="text-right">Uniform sheet formation, moisture and grammages profile with headbox sheets and services</p>
+
+                <p class="mb-0 text-right"><strong>YANKEE SAFETY</strong></p>
+                <p class="text-right">Secure Yankee operation with essential vibration monitoring system </p>
+
+                <p class="mb-0 text-right"><strong>CREPING</strong></p>
+                <p class="text-right">Engineered creping/cleaning doctors, CBC blade holder and appropriate services</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>
