@@ -1,0 +1,120 @@
+<section id="careers">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active text-dark">
+                <div style="height: 55vh; background-color: var(--danger) ;background-size: cover ; background-repeat: no-repeat;  ">
+                    <div class="container text-center slide1" style="position: relative; top: 60%;">
+
+                        <h1 class="text-white">{{ productName }}</h1>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section *ngIf="productName == 'MEK'" style="padding: 100px 0;">
+    <div class="container">
+        <div *ngFor="let m of mekProducts; let i = index" class="row mx-auto my-4">
+            <div *ngIf=" i % 2 == 0" class="col-sm-8 align-self-center">
+                <a href="/#/product/1/?type={{m.name}}&id={{m.id}}" [queryParams]="{ type : 'm.name', id : 'm.id' }">
+                    <h3 class="text-danger"><u>{{ m.name }}</u></h3>
+                </a>
+
+                <p class="mt-4">
+                    {{ m.description }}
+                </p>
+            </div>
+
+            <div class="col-sm-4 text-center ">
+                <img src="{{ m.photoURL }}" alt="">
+            </div>
+            <div *ngIf=" i % 2 != 0" class="col-sm-8 align-self-center">
+                <h3 class="text-danger"><u>{{ m.name }}</u></h3>
+
+                <p class="mt-4">
+                    {{ m.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section *ngIf="!showProductDeatil" style="padding: 100px 0;">
+    <div class="container">
+        <div class="row mx-auto">
+            <div class="col-sm-6">
+                <h1>{{ mekProducts[productId - 1].name }}</h1>
+                <p>Rotating shear force transmitter for fiber consistency from 1 – 16%
+
+                </p>
+                <p>The MEK-2500 RotoForceTM inline transmitter measures fiber consistency of pulp suspensions in the range of 1 – 16%. This rotating shear force transmitter works practically in every measuring position in pulping, bleaching and papermaking
+                    application.
+                </p>
+            </div>
+
+            <div class="col-sm-6 text-center">
+                <img src="{{ mekProducts[productId - 1].photoURL }}" alt="">
+            </div>
+        </div>
+
+        <div class="row mx-auto">
+            <div class="col-sm-6">
+                <h2>Benefits</h2>
+
+                <ul class="mt-4">
+                    <li>Fiber consistency measurement from 1 to 16%</li>
+                    <li>Easy installation also in 300 mm pipelines without a vessel</li>
+                    <li>Applicable in the blow line after digester, in screening and washing stages, bleach plant till machine chest</li>
+                    <li>Closed loop consistency control</li>
+                </ul>
+            </div>
+
+            <div class="col-sm-6">
+                <h2>Specifications</h2>
+
+                <p class="mt-4">The sensor is intended for inline installation into pulp- and papermaking process lines via a welded stud. It works via a 3-phase electric motor.</p>
+
+                <div class="row mx-auto">
+                    <div class="col-6">
+                        <h6>Measuring range</h6>
+                        <p>Shear force transmitter for 1 to 16 % fiber consistency</p>
+                    </div>
+                    <div class="col-6">
+                        <h6>Material</h6>
+                        <p>Wetted parts are made out of stainless steel, EN 1.4404</p>
+                    </div>
+                </div>
+
+                <div class="mx-3">
+                    <h6>Process</h6>
+
+                    <ul>
+                        <li>Pressure 10 bar (145 psi) to 25 bar (360 psi) depending on selected transmitter components
+                        </li>
+                        <li>Media temperature max. 150°C [300°F] – min. 15°C [60°F]</li>
+                        <li>Flow limits 0.5 – 5 m/s</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<section class="contact-home">
+    <div class="text-center" style="position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);">
+        <h3 class="text-center">Can’t find a solution you are after?
+            <br>We can still help, talk to our experts today
+        </h3>
+        <button class="btn btn-danger btn-lg mt-4">Contact BTG</button>
+    </div>
+
+</section>
+
+<br><br><br>
+
+<app-footer></app-footer>
