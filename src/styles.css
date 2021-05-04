@@ -6,8 +6,16 @@
     --danger: #DC3545 !important;
     scroll-margin-top: 10em !important;
     scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer ul li {
     font-size: 12px;
+}
+
+.contact-home {
+    width: 100% !important;
+    height: 50vh !important;
+    background: url('./assets/hero/conatct.png') no-repeat center center  !important;
+    background-size: cover !important;
 }

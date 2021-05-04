@@ -25,3 +25,8 @@
     height: 50vh;
     background: url("../../assets/hero/conatct.png") no-repeat;
 }
+
+strong:hover{
+    color: var(--danger);
+    cursor: pointer;
+}

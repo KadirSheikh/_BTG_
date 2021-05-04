@@ -48,3 +48,8 @@
 #lev4 {
     border: 1px dashed var(--danger);
 }
+
+a:hover, .strip:hover{
+    text-decoration: none;
+    color: white !important;
+}
