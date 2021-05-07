@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CatagoriesComponent implements OnInit {
 
-  data: any = {
+  data: any = [{
     "heading": "Tissue",
     "subheading": "Trusted tissue solutions transforming efficiency, productivity and profitability.",
     "para1": "In today’s highly competitive and ever changing environment, complementary solutions from BTG including digital solutions, high performance blade technology and market-leading instrumentation help tissue set benchmarks for performance and cost",
@@ -18,7 +18,11 @@ export class CatagoriesComponent implements OnInit {
     "img3": "../../../assets/Pyramid/lev2.gif",
     "img4": "../../../assets/Pyramid/lev3.gif",
     "img5": "../../../assets/Pyramid/lev4.gif"
+  },
+  {
+    "heading": "Pulp 4.0"
   }
+]
 
   itemImageUrl = '../../../assets/pyramid.gif';
 
@@ -32,7 +36,7 @@ export class CatagoriesComponent implements OnInit {
 
     this._activatedRoute.queryParams.subscribe(params => {
       this.catName = params['name']
-      // console.log(this.catName);
+      console.log(this.catName);
     })
 
 

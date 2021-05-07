@@ -1,4 +1,4 @@
-<section id="about">
+<!-- <section id="about">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active text-dark">
@@ -15,13 +15,31 @@
 
         </div>
     </div>
+</section> -->
+
+<section id="careers">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active text-dark">
+                <div style="height: 35vh; background-color: var(--danger) ;background-size: cover ; background-repeat: no-repeat;  ">
+                    <div class="container text-center slide1" style="position: relative; top: 70%;">
+
+                        <h1 class="text-white" [hidden]="hiddenSection">News and Press Release</h1>
+                        <h4 class="text-capitalize text-center text-white" [hidden]="!hiddenSection">{{ news[dataId].heading }}</h4>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 
 <section style="padding: 100px 0;" [hidden]="hiddenSection">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row mx-auto">
-            <div class="col-sm-10 border-right">
+            <div class="col-sm-12 border-right">
                 <div class="row mx-auto">
                     <!-- <div *ngFor="let n of news" class="col-sm-4">
                         <div class="card rounded-0  mx-2 my-2">
@@ -37,7 +55,7 @@
                         </div>
                     </div> -->
 
-                    <div *ngFor="let n of news" class="col-sm-4 ">
+                    <div *ngFor="let n of news" class="col-sm-3">
                         <div class="card rounded-0 border-0 mx-2 my-2">
                             <img class="card-img-top" src="../../../../assets/hero/news.png" alt="Card image cap">
                             <div class="card-body ">
@@ -59,18 +77,18 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2 " style="position:fixed; left: 78%; ">
+            <!-- <div class="col-sm-2 " style="position:fixed; left: 78%; ">
                 <select class="form-control w-50 mt-2  rounded-0" name="sel">
                     <option>News</option>
                     <option>Events</option>
                 </select>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
 
 <section style="padding: 100px 0;" [hidden]="!hiddenSection">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row mx-auto">
             <div class="col-sm-8 border-right pr-4">
                 <img src="../../assets/newsnevents/newsdetails.png" style="width: 100%;" alt="">

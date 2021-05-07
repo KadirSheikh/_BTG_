@@ -82,18 +82,19 @@
                             <li class="dropdown-submenu"><a class="dropdown-item " routerLink="compliance-whistleblowing-scheme" href="">Compliance / Whistleblowing Scheme</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item mx-2">
+                    <!-- <li class="nav-item mx-2">
                         <a class="nav-link font-weight-bold" routerLink="solutions">Solutions</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item mx-2">
                         <a class="nav-link font-weight-bold" routerLink="news_and_events">News and Press Release</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link font-weight-bold" routerLink="/careers">Careers</a>
+                        <a class="nav-link font-weight-bold" href="#">Events</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link font-weight-bold" href="#">Contact</a>
+                        <a class="nav-link font-weight-bold" routerLink="/careers">Careers</a>
                     </li>
+
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <select class="btn btn-danger font-weight-bold">
@@ -257,7 +258,7 @@
             <div>
                 <ul class="navbar-nav" style="flex-direction: row !important; ">
                     <li class="nav-item dropdown">
-                        <a class="nav-link mx-2" href="http://example.com" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Pulp</a>
+                        <a class="nav-link mx-2" routerLink="catagory/1" [queryParams]="{ name : 'Pulp' }" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Pulp</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <!-- <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li> -->
@@ -408,7 +409,7 @@
                             <li class="dropdown-submenu"><a class="dropdown-item " href="#">Strength management
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">SurfMAX</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'packaging' , subname:'strength-management' , subsubname:'surfmax'}">SurfMAX</a></li>
                                     <li><a class="dropdown-item" href="#">Starch optimization</a></li>
 
                                 </ul>
@@ -543,12 +544,12 @@
 
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu">
-                                        <a class="dropdown-item" routerLink="/consistency-control">
+                                        <a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control' , subsubname:'instrument'}">
                                             Instrument
                                         </a>
 
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" routerLink="product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', pname : 'MEK' }">MEK</a></li>
+                                            <li><a class="dropdown-item" routerLink="product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MEK' }">MEK</a></li>
                                             <li><a class="dropdown-item" href="#">MBT</a></li>
                                             <li><a class="dropdown-item" href="#">TCR</a></li>
                                             <li><a class="dropdown-item" href="#">TCT</a></li>
@@ -648,7 +649,7 @@
                                     Performance solutions
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Fibermax</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'performance-solutions' , subsubname:'fibermax'}">Fibermax</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -656,7 +657,8 @@
                                     Operational intelligence
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">dataPARC</a></li>
+
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-intelligence' , subsubname:'dataprc'}">dataPARC</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -665,7 +667,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Vigilance</a></li>
-                                    <li><a class="dropdown-item" href="#">PROdry</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-safety' , subsubname:'prodry'}">PROdry</a></li>
                                     <li><a class="dropdown-item" href="#">PROfile</a></li>
                                 </ul>
                             </li>
@@ -674,7 +676,7 @@
                                     Control Loop Performance management
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">CONTROLsuite</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'control-loop-performance-management' , subsubname:'controlsuite'}">CONTROLsuite</a></li>
 
                                 </ul>
                             </li>

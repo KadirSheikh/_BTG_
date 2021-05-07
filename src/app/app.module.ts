@@ -18,6 +18,8 @@ import { CareersComponent } from './careers/careers.component';
 import { CatagoriesComponent } from './catagories/catagories.component';
 import { SubcatagoriesComponent } from './subcatagories/subcatagories.component';
 import { ProductsComponent } from './products/products.component';
+import { SubSubCatagoryComponent } from './sub-sub-catagory/sub-sub-catagory.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,13 +36,15 @@ import { ProductsComponent } from './products/products.component';
     CareersComponent,
     CatagoriesComponent,
     SubcatagoriesComponent,
-    ProductsComponent
+    ProductsComponent,
+    SubSubCatagoryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { NewsEventsComponent } from './news-events/news-events.component';
 import { ProductsComponent } from './products/products.component';
 import { SolutionsComponent } from './solutions/solutions.component';
+import { SubSubCatagoryComponent } from './sub-sub-catagory/sub-sub-catagory.component';
 import { SubcatagoriesComponent } from './subcatagories/subcatagories.component';
 
 
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'careers', component: CareersComponent },
   { path: 'catagory/:id', component: CatagoriesComponent },
   { path: 'subcatagory/:id', component: SubcatagoriesComponent },
+  { path: 'sub-subcatagory/:id', component: SubSubCatagoryComponent },
   { path: 'product/:id', component: ProductsComponent }
 ];
 
