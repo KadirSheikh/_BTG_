@@ -1,7 +1,7 @@
 <!-- Pulp page start of main catagory -->
 <div *ngIf="catName == 'Pulp'">
 
-    <section id="pulp">
+    <!-- <section id="pulp">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active text-dark">
@@ -9,7 +9,7 @@
                         <div class="container text-center slide1" style="position: relative; top: 70%;">
 
                             <h1 class="text-white">{{data[1].heading}}</h1>
-                            <!-- <h4 class="text-capitalize text-white text-center">{{data[1].subheading}}</h4> -->
+                           
 
                         </div>
 
@@ -18,7 +18,12 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <div class="red-title-banner">
+        <h1 class="text-white ">{{data[1].heading}}</h1>
+    </div>
+
 
     <section style="padding: 50px 0;">
         <div class="container">
@@ -102,11 +107,11 @@
 
 <!-- Tissue page start of main catagory -->
 <div *ngIf="catName == 'Tissue'">
-    <section id="careers">
+    <!-- <section id="careers">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active text-dark">
-                    <div style="height: 55vh; background-color: var(--danger) ;background-size: cover ; background-repeat: no-repeat;  ">
+                    <div class="red-title">
                         <div class="container text-center slide1" style="position: relative; top: 55%;">
 
                             <h1 class="text-white">{{data[0].heading}}</h1>
@@ -119,13 +124,26 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
+    <!-- <section id="careers">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-dark">
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <div class="red-title-banner">
+        <h1 class="text-white text-center">{{data[0].heading}}</h1>
+        <h4 class="text-capitalize text-white text-center">{{data[0].subheading}}</h4>
+    </div>
 
     <section style="padding: 100px 0;">
         <div class="container">
             <div class="row  mx-auto">
                 <div class="col-sm-5 justify-content-center">
-                    <img [src]="data[0].img1" style="width: 100%; height: 100%;" alt="">
+                    <img [src]="data[0].img1" style="width: 100%; height: 100%;position: absolute;left: -20%;top: 2.5%" alt="">
                 </div>
 
                 <div class="col-sm-7 ">
@@ -293,7 +311,7 @@
                     <p>Fiber quality and property improvement and control; refining, fiber morphology and drainage optimization
                     </p>
 
-                    <p class="mb-0"><a routerLink="/consistency-control"><strong class="text-dark">CONSISTENCY
+                    <p class="mb-0"><a routerLink="/subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control'}"><strong class="text-dark">CONSISTENCY
                                 CONTROL</strong></a></p>
                     <p>Fiber, fines and ash consistency, monitoring and retention control</p>
 

@@ -16,6 +16,24 @@ footer ul li {
 .contact-home {
     width: 100% !important;
     height: 50vh !important;
-    background: url('./assets/hero/conatct.png') no-repeat center center  !important;
+    background: url('./assets/hero/conatct.png') no-repeat center center !important;
     background-size: cover !important;
+}
+
+.red-title-banner {
+    height: 100%;
+    background-color: var(--danger);
+    margin-top: 10%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.data-sheet {
+    text-align: center;
+    background-image: url('assets/datasheet/datanewsheet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    margin: 10px 0;
+    ;
 }

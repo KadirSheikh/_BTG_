@@ -12,3 +12,7 @@ img {
     height: 50vh;
     background: url('../../assets/hero/conatct.png') no-repeat;
 }
+
+li {
+    margin-left: 2% !important;
+}

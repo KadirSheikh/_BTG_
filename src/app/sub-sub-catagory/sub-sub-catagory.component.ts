@@ -14,6 +14,7 @@ export class SubSubCatagoryComponent implements OnInit {
   constructor(private _activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
+    window.scroll(0,0);
     this._activatedRoute.queryParams.subscribe(params => {
       console.log(params);
       this.catName = params['catname'];

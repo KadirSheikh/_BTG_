@@ -58,8 +58,9 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/act-2500.png',
       name:"ACT-2500 AmpliForce Consistency Transmitter",
-      description:`The ACT-2500 is an in-line blade transmitter for measuring consistency of pulp suspensions in the range 1-7%Cs. ACT-2500 is based on a new technique for consistency measurement, using an active sensor oscillating at its resonance frequency.
-      The ACT-2500 is an in-line blade transmitter for measuring consistency of pulp suspensions in the range 1-7%Cs. ACT-2500 is based on a new technique for consistency measurement, using an active sensor oscillating at its resonance frequency.
+      description:`The ACT-2500 is an in-line blade transmitter for measuring consistency of pulp suspensions in the range 1-7%Cs.ACT-2500 is based on a new technique for consistency measurement, using an active sensor oscillating at its resonance frequency.
+      
+      <br/><br/>
       ACT-2500 combines measurement of shear force and viscoelastic properties to obtain higher sensitivity and better signal quality than conventional blade consistency transmitters. The transmitter combines a high and dynamic sensitivity to fiber consistency with a low sensitivity to normal variations in fiber composition, freeness, black liquor content, air content, pressure etc.
       `,
       benefits:[`Shear force/viscoelastic measuring`,
@@ -71,8 +72,8 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/mbt-2500.png',
       name:"MBT-2500 Moving Blade Consistency Transmitter",
-      description:`The MBT-2500 is an active type of in-line blade transmitter for measuring consistency of pulp suspensions in the range 1.5-8%. It is based upon the well-known MBT concept which has been delivered in over 28 000 units. MBT-2500 is improved and refined to perfection to bring even better measuring result and less maintenance demand.
-      The MBT-2500 uses the shear force principle to measure fiber consistency with a reciprocating, active sensor. This gives the transmitter virtually no sensitivity to normal variations in fiber composition, freeness, fillers, black liquor content, air content, pressure, etc.
+      description:`The MBT-2500 is an active type of in-line blade transmitter for measuring consistency of pulp suspensions in the range 1.5-8%. It is based upon the well-known MBT concept which has been delivered in over 28 000 units. MBT-2500 is improved and refined to perfection to bring even better measuring result and less maintenance demand.<br>
+      The MBT-2500 uses the shear force principle to measure fiber consistency with a reciprocating, active sensor. This gives the transmitter virtually no sensitivity to normal variations in fiber composition, freeness, fillers, black liquor content, air content, pressure, etc.<br>
       The active sensor measuring method makes it less sensitive to varying flow velocity compared to static blade type transmitter.`,
       benefits:[`Shear force measurement`,
                 `Suitable for less demanding applications. Better result than for static blade transmitters`,
@@ -83,9 +84,9 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/sbt-2400.png',
       name:"SBT-2400 Static Blade Consistency Transmitter",
-      description:`The SBT-2400 is a static blade transmitter for measurement of the fiber consistency in pulp suspensions. 
-      The transmitter uses the shear force principle to measure consistency.
-      In applications where static blade transmitters are used, the SBT-2400 is a highly competitive alternative both in terms of performance and cost.
+      description:`The SBT-2400 is a static blade transmitter for measurement of the fiber consistency in pulp suspensions. <br/>
+      The transmitter uses the shear force principle to measure consistency. <br/>
+      In applications where static blade transmitters are used, the SBT-2400 is a highly competitive alternative both in terms of performance and cost.<br/>
       `,
       benefits:[`Shear force measurement`,
                 `Reliable and recognized consistency measurement. Suitable for less-critical consistency control applications`,
@@ -95,13 +96,15 @@ export class ProductsComponent implements OnInit {
      {
       image:'../../assets/instrument_pro/tcr-25xx.png',
       name:"TCR-25xx PeakTotal Consistency Transmitter",
-      description:`The TCR-25 PeakTotal is a true total consistency transmitter; it is thus virtually insensitive to variations in filler and fines content as well as changes in fiber properties.
-      Based on BTG’s patented Peak method for optical analysis PeakTotal covers total consistencies in the range of 0.5 to 16%.
-      The transmitter is mounted in-line direct after the pump in the turbulent flow and provides real time results. The probe is unique low-maintenance probe, without electronic components attached which makes the transmitter insensitive to variations in temperature and vibration.
-      Two versions exist of this transmitter type:
-      • TCR-25x1 with one total consistency output
- 
-      • TCR-25x2 with two output, the second output can be calibrated for filler or for different fiber properties.`,
+      description:`The TCR-25 PeakTotal is a true total consistency transmitter; it is thus virtually insensitive to variations in filler and fines content as well as changes in fiber properties. <br/><br/>
+      Based on BTG’s patented Peak method for optical analysis PeakTotal covers total consistencies in the range of 0.5 to 16%.<br/><br/>
+      The transmitter is mounted in-line direct after the pump in the turbulent flow and provides real time results. The probe is unique low-maintenance probe, without electronic components attached which makes the transmitter insensitive to variations in temperature and vibration.<br/>
+      Two versions exist of this transmitter type:<br/><br/>
+      <ul>
+      <li>TCR-25x1 with one total consistency output
+      </li>
+      <li>TCR-25x2 with two output, the second output can be calibrated for filler or for different fiber properties.</li>
+      </ul>`,
       benefits:[`In-line filler and total consistency measurement`,
                 `Independent of grade and wood species`,
                 `No increased process pressure needed`,
@@ -113,7 +116,7 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/tct-25x1.png',
       name:"TCT-25x1 Peak Total Low Consistency Transmitter",
-      description:`BTG’s TCT-25 PeakOne is an in-line transmitter for measuring total consistency of pulp suspensions in the range 0.01-3%. It measures the large and fine particles individually and can because of that deliver an accurate total consistency value independently of variation in fiber, fines or ash. The pulp brightness or color does not affect the measurement.
+      description:`BTG’s TCT-25 PeakOne is an in-line transmitter for measuring total consistency of pulp suspensions in the range 0.01-3%. It measures the large and fine particles individually and can because of that deliver an accurate total consistency value independently of variation in fiber, fines or ash. The pulp brightness or color does not affect the measurement.<br/>
       The transmitter is mounted in-line without any special bypass arrangement and provides real time results. The PeakOne has a unique low-maintenance probe, without electronic components attached which makes the transmitter insensitive to variations in temperature and vibration.`,
       benefits:[`In-line low consistency measurement `,
                 `High accuracy of true total consistency`,
@@ -128,7 +131,7 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/mct-2000.png',
       name:"MCT-2000 Microwave Consistency Transmitter",
-      description:`Microwave consistency transmitters can be used throughout the entire process to determine consistency and to feed it to a control loop. 
+      description:`Microwave consistency transmitters can be used throughout the entire process to determine consistency and to feed it to a control loop.<br/><br/>The transmitter is not sensitive to changes in fiber type or length caused by the variations in the raw material, in the wood species or from the pulp-making process. It is also not sensitive to fiber treatment such as refining and fraction. Because fiber as well as filler content of the pulp are measured, a nearly total consistency measurement can be made. The transmitter is not affected by brightness, color or flowrate. 
       Microwave consistency transmitters can be used throughout the entire process to determine consistency and to feed it to a control loop. `,
       benefits:[`Microwave based measurement`,
                 `Flush inner parts with no risk of spinning or deposits`,
@@ -138,12 +141,14 @@ export class ProductsComponent implements OnInit {
     },
     {
       image:'../../assets/instrument_pro/mcs-1000.png',
-      name:"TCT-25x1 Peak Total Low Consistency Transmitter",
-      description:`The pulp sampler is used for manual extraction of representative pulp samples from pressurized pipes. It is pneumatically controlled by a push button. Automatic closing occurs by means of a spring, if air pressure drops.
-      The sampler is designed for the MC-range (8-16% Cs) but work already from 0% Cs.
-      The cutting design of the sampling piston also makes it applicable for lower consistency ranges in unscreened pulp applications. A minimum pressure requirement in the process line makes the sampler suitable for low pressure applications also. The sampler is available in two variants:
-      • MCS-1000 to be used in standard applications and 
-      • MCS-1010 for tougher application with for example powerful vibration such as blow line.`,
+      name:"MCS-1000 Medium Consistency Sampler",
+      description:`The pulp sampler is used for manual extraction of representative pulp samples from pressurized pipes. It is pneumatically controlled by a push button. Automatic closing occurs by means of a spring, if air pressure drops.<br/><br/>
+      The sampler is designed for the MC-range (8-16% Cs) but work already from 0% Cs. <br/><br/>
+      The cutting design of the sampling piston also makes it applicable for lower consistency ranges in unscreened pulp applications. A minimum pressure requirement in the process line makes the sampler suitable for low pressure applications also. The sampler is available in two variants:<br/><br/>
+      <ul>
+      <li>MCS-1000 to be used in standard applications and</li>
+      <li>MCS-1010 for tougher application with for example powerful vibration such as blow line.</li>
+      </ul>`,
       benefits:[`Multipurpose sampler for all types of pulp`,
                 `Cutting edge designed piston for unscreened pulp with shives and knots`,
                 `Easy calibration with long term stability Work in high- and low-pressure applications`,
@@ -154,11 +159,13 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/mps-pps-1000.png',
       name:"MPS-/PPS-1000 Mechanical and Pneumatic Pulp Samplers",
-      description:`The sampler is used for the extraction of representative screened pulp samples from pressurized pipes.
-      There are two different models of the sampler.
-      Each model can be connected flanged or threaded:
-      • MPS-1000/1010, hand operated. For manual sampling.
-      • PPS-1000/1010, pneumatic push button control. For manual sampling.`,
+      description:`The sampler is used for the extraction of representative screened pulp samples from pressurized pipes.<br/><br/>
+      There are two different models of the sampler.<br/>
+      Each model can be connected flanged or threaded:<br/>
+      <ul>
+      <li>MPS-1000/1010, hand operated. For manual sampling</li>
+      <li>PPS-1000/1010, pneumatic push button control. For manual sampling.</li>
+      </ul>`,
       benefits:[`Simple and reliable design`,
                 `Mechanism provides consistent samples, independent of operator skill`,
                 `Representative sampling, as the sample is extracted away from the water layer around the pipe wall`],
@@ -276,6 +283,7 @@ export class ProductsComponent implements OnInit {
   constructor(private _activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
+    window.scroll(0,0);
     this._activatedRoute.queryParams.subscribe(params => {
       this.productName = params['pname'];
       this.catName = params['catname'];

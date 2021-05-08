@@ -128,6 +128,7 @@ export class NewsEventsComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
+    window.scroll(0,0);
     this.activatedRoute.params.subscribe(params => {
       // console.error(params['id']); // Prints {id: "2"}
 

@@ -34,13 +34,15 @@ export class CatagoriesComponent implements OnInit {
 
   ngOnInit(): void {
 
+    window.scroll(0,0);
+
     this._activatedRoute.queryParams.subscribe(params => {
       this.catName = params['name']
       console.log(this.catName);
     })
 
 
-
+  
 
   }
 
