@@ -174,7 +174,7 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/spc-5500.png',
       name:"SPC-5500 Single Point Charge Analyzer",
-      description:`BTG’s Single Point Charge analyzer, is an online analyzer which continuously measures the charge of colloidal dissolved substances in an aqueous sample. By automatic titration of the sample with an oppositely charged poly-electrolyte solution, it is possible to precisely quantify charge levels (cationic demand or anionic demand).
+      description:`BTG’s Single Point Charge analyzer, is an online analyzer which continuously measures the charge of colloidal dissolved substances in an aqueous sample. By automatic titration of the sample with an oppositely charged poly-electrolyte solution, it is possible to precisely quantify charge levels (cationic demand or anionic demand).<br/><br/>
       The SPC-5500 offers a modular concept with the measuring module and titration module located in a cabinet. The analyzer can be installed up to 10 m from the sampling point, max. two  sampling points are possible. It can be used with or without a filtration device.`,
       benefits:[`Cost effective solution for a compact online charge measurement`,
                 `Allows for closed loop control of fixatives and other chemical additives`,
@@ -187,8 +187,8 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/spc-5550.png',
       name:"SPC-5550 Single Point Morphology Analyzer",
-      description:`BTG’s  Single  Point  Morphology  analyzer, SPM-5550,    is    an on-line    analyzer    measuring    the geometrical  pulp  properties  such  as  length,  width, shape  for  fibers,  fines, and  other  objects such  as shives.
-      The  SPM-5550  is  installed  directly  on  the  process pipe   and   an   integrated   robust   sampling   device extracts  representative  pulp  samples  under  actual process conditions providing real time results, and it can thus be used for effective process control of key process stages such as refining and screening.
+      description:`BTG’s  Single  Point  Morphology  analyzer, SPM-5550,    is    an on-line    analyzer    measuring    the geometrical  pulp  properties  such  as  length,  width, shape  for  fibers,  fines, and  other  objects such  as shives.<br/>
+      The  SPM-5550  is  installed  directly  on  the  process pipe   and   an   integrated   robust   sampling   device extracts  representative  pulp  samples  under  actual process conditions providing real time results, and it can thus be used for effective process control of key process stages such as refining and screening.<br/>
       Fiber morphology data can be applied for predictions of other pulp and paper properties such as freeness and strength.
       `,
       benefits:[`Single point high frequency measurement`,
@@ -202,9 +202,9 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/DRT-5500.png',
       name:"DRT-5500 Freeness Inline Analyzer",
-      description:`The DRT-5500 Freeness In-line analyzer measures the drainage rate of pulp suspensions and provides fast and accurate freeness results.
-      It is installed directly on the process pipe and an integrated robust sampling device extracts representative pulp samples under actual process conditions providing real time results. The special design of the DRT-5500 sample piston allows easy installation independent of the process pipe angle. The DRT-5500 is available in two versions: Standard for most applications and Peak for application with variations in ash and fines.
-      Due to its robust design and unique measuring principle, the DRT-5500 measures with high frequency, high accuracy and repeatability.
+      description:`The DRT-5500 Freeness In-line analyzer measures the drainage rate of pulp suspensions and provides fast and accurate freeness results.<br/>
+      It is installed directly on the process pipe and an integrated robust sampling device extracts representative pulp samples under actual process conditions providing real time results. The special design of the DRT-5500 sample piston allows easy installation independent of the process pipe angle. The DRT-5500 is available in two versions: Standard for most applications and Peak for application with variations in ash and fines.<br/>
+      Due to its robust design and unique measuring principle, the DRT-5500 measures with high frequency, high accuracy and repeatability.<br/>
       It provides a freeness output signal which is independent of the process.`,
       benefits:[`Direct in-line single point measurement`,
                 `Accurate high frequency measurement`,
@@ -221,7 +221,7 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/RET-5503.png',
       name:"RET-5503 Ash and Total Consistency Analyzer",
-      description:`BTG’s RET-5503 PeakAsh is the perfect solution for measuring ash and total consistency of pulp suspensions in the range of 0.01-2%. Due to its LED and laser technology, it can easily be calibrated to secure stable and accurate ash consistency based on laboratory ash determination. Ash and total consistency values are independent of variation in pulp brightness or color.
+      description:`BTG’s RET-5503 PeakAsh is the perfect solution for measuring ash and total consistency of pulp suspensions in the range of 0.01-2%. Due to its LED and laser technology, it can easily be calibrated to secure stable and accurate ash consistency based on laboratory ash determination. Ash and total consistency values are independent of variation in pulp brightness or color.<br/><br/>
       The PeakAsh sensor is mounted in a special bypass arrangement and provides real time results. The unit has a unique low-maintenance probe which is fed by a pump solution ideally suited for these applications. All modules built on a frame allow for plug & play features with shortest start-up times. High installation flexibility is achieved through a variety of customized options plus the unit’s independency of process pressure and process layout.
       `,
       benefits:[`High accuracy of ash and total consistency`,
@@ -235,7 +235,7 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/SPK-5500.png',
       name:"SPK-5500 Single Point Kappa, Kappa Number Analyzer",
-      description:`BTG’s, Single Point Kappa Analyzer, SPK-5500, is an in-line kappa analyzer which measures the lignin content of pulp fibers. Optionally it can also measure hexenuronic acid (HexA). The analyzer is mounted directly to the pulp processing pipeline and contains all unit operations of the traditional multi point kappa analyzer. Thus, there is no need for the remote pulp sampler, associated water valves and transport lines from the sampler to the kappa analyzer. The SPK handles all operations in one unit - pulp sampling, screening, washing, and optical kappa number measurement.
+      description:`BTG’s, Single Point Kappa Analyzer, SPK-5500, is an in-line kappa analyzer which measures the lignin content of pulp fibers. Optionally it can also measure hexenuronic acid (HexA). The analyzer is mounted directly to the pulp processing pipeline and contains all unit operations of the traditional multi point kappa analyzer. Thus, there is no need for the remote pulp sampler, associated water valves and transport lines from the sampler to the kappa analyzer. The SPK handles all operations in one unit - pulp sampling, screening, washing, and optical kappa number measurement. <br/><br/>
       Because the SPK is dedicated to one position, it supplies kappa results at a much faster rate, 10 – 12 kappa results per hour, compared to the traditional multi point kappa analyzer’s typical 2 – 3 results per hour. This will significantly improve the accuracy of the signal applied for the process control, subsequently enhancing the performance of the production process.
       `,
       benefits:[`Single Point high frequency measurement`,
@@ -250,8 +250,8 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/GAS-60.png',
       name:"GAS-60 Gas Content Analyzer",
-      description:`The main application of the GAS-60 Gas Analyzer is closed loop control of deaerator/defoamer chemicals in pulp and paper production.
-      By measuring the gas content online, problems of paper machine runnability due to increased gas contents can be adjusted within a short time. In addition, online gas measurements optimize the performance of mechanical and/or chemical deaerator.
+      description:`The main application of the GAS-60 Gas Analyzer is closed loop control of deaerator/defoamer chemicals in pulp and paper production.<br/><br/>
+      By measuring the gas content online, problems of paper machine runnability due to increased gas contents can be adjusted within a short time. In addition, online gas measurements optimize the performance of mechanical and/or chemical deaerator.<br/><br/>
       In pulp and paper suspensions two different types of gases can be found: free and dissolved gas. The washers in the brown-stock washing process are heavily influenced by foam. Air is introduced as a surfactant with the fiber and can result in several problems. The paper machine wire and leakages in piping, machine parts and pumps are the principal locations within the stock cycle where air is entrained during papermaking.
 
       `,
@@ -265,8 +265,8 @@ export class ProductsComponent implements OnInit {
     {
       image:'../../assets/instrument_pro/RPA-5000.png',
       name:"RPA-5000 Residual Peroxide Analyzer",
-      description:`The use of chlorine-free bleaching agents in pulp bleaching processes is steadily increasing. Peroxide is the most commonly used of these chemicals for bleaching kraft, mechanical and recycled pulps. 
-      Peroxide, however, is relatively expensive and, therefore,  improved control of its use in the bleaching process is beneficial for optimizing operating efficiency and product quality. Measurement of peroxide residuals after bleaching, for example, is necessary for achieving better overall control of the bleaching process.
+      description:`The use of chlorine-free bleaching agents in pulp bleaching processes is steadily increasing. Peroxide is the most commonly used of these chemicals for bleaching kraft, mechanical and recycled pulps. <br/><br/>
+      Peroxide, however, is relatively expensive and, therefore,  improved control of its use in the bleaching process is beneficial for optimizing operating efficiency and product quality. Measurement of peroxide residuals after bleaching, for example, is necessary for achieving better overall control of the bleaching process.<br/><br/>
       The RPA-5000 measures the residual peroxide content of a filtrate sample from a bleached pulp suspension.
       `,
       benefits:[`Provides accurate results in as little as four minutes`,
