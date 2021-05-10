@@ -73,3 +73,13 @@ a:hover,
 #infoi {
     z-index: 10;
 }
+
+.download {
+    font-weight: 600;
+    color: var(--danger);
+}
+
+.download:hover {
+    color: var(--danger) !important;
+    text-decoration: underline !important;
+}
