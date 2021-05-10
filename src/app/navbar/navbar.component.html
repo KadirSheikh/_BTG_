@@ -79,7 +79,8 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li class="dropdown-submenu"><a class="dropdown-item " routerLink="history" href="">History</a></li>
                             <li class="dropdown-submenu"><a class="dropdown-item " routerLink="export-control-compliance" href="">Export control compliance</a></li>
-                            <li class="dropdown-submenu"><a class="dropdown-item " routerLink="compliance-whistleblowing-scheme" href="">Compliance / Whistleblowing Scheme</a></li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " routerLink="compliance-whistleblowing-scheme" href="">Compliance / Whistleblowing
+                                    Scheme</a></li>
                         </ul>
                     </li>
                     <!-- <li class="nav-item mx-2">
@@ -399,7 +400,7 @@
                             <!-- <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li> -->
 
-                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Coating</a>
+                            <!-- <li class="dropdown-submenu"><a class="dropdown-item " href="#">Coating</a>
                                 <ul class="dropdown-menu">
 
                                     <li><a class="dropdown-item" href="#"> Coating blades</a></li>
@@ -439,26 +440,343 @@
                                     <li><a class="dropdown-item" href="#">Morphology & freeness solutions</a></li>
                                     <li><a class="dropdown-item" href="#">MACSash</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <!-- <li class="dropdown-submenu"><a class="dropdown-item " href="http://google.com">Google</a>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Sizing & Coating</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu</a></li>
-                                    <li><a class="dropdown-item" href="#">Submenu0</a></li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item " href="#">Submenu 1</a>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Metered Size
+                                            Press</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                                            <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+
+                                            <li><a class="dropdown-item" href="#">Coating rods & beds</a></li>
+                                            <li><a class="dropdown-item" href="#">Parts and upgrades for coating
+                                                    rods</a></li>
+
                                         </ul>
                                     </li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item " href="#">Submenu 2</a>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Blade Coating</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                                            <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+
+                                            <li><a class="dropdown-item" href="#">Coating blades</a></li>
+
+
                                         </ul>
                                     </li>
                                 </ul>
-                            </li> -->
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Sheet Uniformity</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Sheet Forming</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">Headbox sheets</a></li>
+
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " routerLink="subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control'}">Consistency</a>
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Consistency
+                                            Measurements</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MEK-3000' }">MEK</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MBT-2500' }">MBT</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'TCX-25xx' }">TCR</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'TCT-25x1' }">TCT</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'SBT-2400' }">SBT</a></li>
+                                            <li><a class="dropdown-item" href="#">MIC</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'RET-5503' }">RET</a></li>
+                                            <li><a class="dropdown-item" href="#">Samplers</a></li>
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Dilution Loop
+                                            Assessment</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'performance-solutions' , subsubname:'fibermax'}">FiberMAX</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Online analyzers</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Morphology</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">SPM</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Charge</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">SZP</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'SPC-5550' }">SPC</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Freeness</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'DRT-5500' }">DRT</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Retention</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'RET-5503' }">RET</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Instrument Reliability</a>
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Reliability Service</a>
+
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Laboratory Analyzers</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Morphology (lab)</a>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Charge/zeta/pH (lab)</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">PCD05</a></li>
+                                            <li><a class="dropdown-item" href="#">PCD 06</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Drainage (lab), Freeness (lab), Retention (lab)</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">DFR</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Performance solutions</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Consistency Performance</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'performance-solutions' , subsubname:'fibermax'}">FiberMAX</a></li>
+                                            <li><a class="dropdown-item" href="#">Consistency 4.0</a></li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Charge/zeta/pH management</a>
+
+
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Starch Performance</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'packaging' , subname:'strength-management' , subsubname:'surfmax'}">SurfMAX</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Fiber Management</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">Consistency Performance</a></li>
+                                            <li><a class="dropdown-item" href="#">Online Analyzers</a></li>
+                                            <li><a class="dropdown-item" href="#">ReelTime</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Paper Properties Performance</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">ReelTime</a></li>
+
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Operational intelligence</a>
+
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Data Historian</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-intelligence' , subsubname:'dataprc'}">dataPARC</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Remote Support</a>
+
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">SMART Monitoring</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Loop Monitoring</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'control-loop-performance-management' , subsubname:'controlsuite'}">CONTROLsuite</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Predictive Modelling</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">ReelTime</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+
+                                </ul>
+
+
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Advanced Process
+                                    Controls</a>
+
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Wet End Control</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">MACSash</a></li>
+                                            <li><a class="dropdown-item" href="#">MACS wet end suite</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Starch Control</a>
+
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">MACSstarch</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Paper Properties Control</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">MACSstrength</a></li>
+                                            <li><a class="dropdown-item" href="#">MACSsurface</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+
+
+
+                                </ul>
+
+
+                            </li>
+
                         </ul>
                     </li>
                     <!-- Tissue Start -->
@@ -564,13 +882,19 @@
                                         </a>
 
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MEK-3000' }">MEK</a></li>
-                                            <li><a class="dropdown-item" href="#">MBT</a></li>
-                                            <li><a class="dropdown-item" href="#">TCR</a></li>
-                                            <li><a class="dropdown-item" href="#">TCT</a></li>
-                                            <li><a class="dropdown-item" href="#">SBT</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MEK-3000' }">MEK</a>
+                                            </li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MBT-2500' }">MBT</a>
+                                            </li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'TCX-25xx' }">TCR</a>
+                                            </li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'TCT-25x1' }">TCT</a>
+                                            </li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'SBT-2400' }">SBT</a>
+                                            </li>
                                             <li><a class="dropdown-item" href="#">MIC</a></li>
-                                            <li><a class="dropdown-item" href="#">RET</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'RET-5503' }">RET</a>
+                                            </li>
                                         </ul>
                                     </li>
 
@@ -619,7 +943,7 @@
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item" href="#">Morphology</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">SPM</a></li>
+                                            <li><a class="dropdown-item">SPM</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
@@ -628,20 +952,23 @@
                                             <li><a class="dropdown-item" href="#">PCD05</a></li>
                                             <li><a class="dropdown-item" href="#">PCD 06</a></li>
                                             <li><a class="dropdown-item" href="#">SZP</a></li>
-                                            <li><a class="dropdown-item" href="#">SPC</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'SPC-5550' }">SPC</a>
+                                            </li>
 
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item" href="#">Freeness</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">DRT</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'DRT-5500' }">DRT</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item" href="#">Retention</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">RET</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'RET-5503' }">RET</a>
+                                            </li>
                                         </ul>
                                     </li>
 
@@ -652,7 +979,8 @@
                                     Performance solutions
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'performance-solutions' , subsubname:'fibermax'}">Fibermax</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'performance-solutions' , subsubname:'fibermax'}">Fibermax</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -661,7 +989,8 @@
                                 </a>
                                 <ul class="dropdown-menu">
 
-                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-intelligence' , subsubname:'dataprc'}">dataPARC</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-intelligence' , subsubname:'dataprc'}">dataPARC</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -670,7 +999,8 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Vigilance</a></li>
-                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-safety' , subsubname:'prodry'}">PROdry</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-safety' , subsubname:'prodry'}">PROdry</a>
+                                    </li>
                                     <li><a class="dropdown-item" href="#">PROfile</a></li>
                                 </ul>
                             </li>
@@ -679,7 +1009,8 @@
                                     Control Loop Performance management
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'control-loop-performance-management' , subsubname:'controlsuite'}">CONTROLsuite</a></li>
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'control-loop-performance-management' , subsubname:'controlsuite'}">CONTROLsuite</a>
+                                    </li>
 
                                 </ul>
                             </li>
@@ -705,41 +1036,393 @@
                     </li>
                     <!-- Tissue End -->
 
+                    <!-- graphic start -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link mx-2" href="http://example.com" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Graphic Paper</a>
+                        <a class="nav-link mx-2" href="" routerLink="catagory/1" [queryParams]="{ name : 'Packaging' }" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Graphic paper & specialty</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <!-- <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li> -->
 
-                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Coating</a>
+                            <!-- <li class="dropdown-submenu"><a class="dropdown-item " href="#">Coating</a>
                                 <ul class="dropdown-menu">
 
                                     <li><a class="dropdown-item" href="#"> Coating blades</a></li>
 
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Strength management
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'packaging' , subname:'strength-management' , subsubname:'surfmax'}">SurfMAX</a></li>
+                                    <li><a class="dropdown-item" href="#">Starch optimization</a></li>
 
                                 </ul>
                             </li>
-                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Wet end solutions
-                                </a>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Overall performance </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Charge solutions</a></li>
+                                    <li><a class="dropdown-item" href="#">FiberMAX audit</a></li>
+                                    <li><a class="dropdown-item" href="#">CONTROLsuite</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Wet end solutions</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Charge solutions
+                                        </a></li>
                                     <li><a class="dropdown-item" href="#">Fines management</a></li>
                                     <li><a class="dropdown-item" href="#">Dearation management</a></li>
-
                                 </ul>
                             </li>
                             <li class="dropdown-submenu"><a class="dropdown-item " href="#">Stock preparation solutions
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Consistency solutions</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Consistency
+                                            solutions</a>
+
+                                    </li>
                                     <li><a class="dropdown-item" href="#">Morphology & freeness solutions</a></li>
                                     <li><a class="dropdown-item" href="#">MACSash</a></li>
+                                </ul>
+                            </li> -->
+
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Sizing & Coating</a>
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Metered Size
+                                            Press</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">Coating rods & beds</a></li>
+                                            <li><a class="dropdown-item" href="#">Parts and upgrades for coating
+                                                    rods</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Blade Coating</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">Coating blades</a></li>
+
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Sheet Uniformity</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Sheet Forming</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">Headbox sheets</a></li>
+
+
+                                        </ul>
+                                    </li>
 
                                 </ul>
+
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " routerLink="subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control'}">Consistency</a>
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#"> Consistency
+                                            Measurements</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MEK-3000' }">MEK</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MBT-2500' }">MBT</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'TCX-25xx' }">TCR</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'TCT-25x1' }">TCT</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'SBT-2400' }">SBT</a></li>
+                                            <li><a class="dropdown-item" href="#">MIC</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'RET-5503' }">RET</a></li>
+                                            <li><a class="dropdown-item" href="#">Samplers</a></li>
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Dilution Loop
+                                            Assessment</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'performance-solutions' , subsubname:'fibermax'}">FiberMAX</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Online analyzers</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Morphology</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">SPM</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Charge</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">SZP</a></li>
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'SPC-5550' }">SPC</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Freeness</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'DRT-5500' }">DRT</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Retention</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'RET-5503' }">RET</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Instrument Reliability</a>
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Reliability Service</a>
+
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Laboratory Analyzers</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Morphology (lab)</a>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Charge/zeta/pH (lab)</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">PCD05</a></li>
+                                            <li><a class="dropdown-item" href="#">PCD 06</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Drainage (lab), Freeness (lab), Retention (lab)</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">DFR</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Performance solutions</a>
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Consistency Performance</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'performance-solutions' , subsubname:'fibermax'}">FiberMAX</a></li>
+                                            <li><a class="dropdown-item" href="#">Consistency 4.0</a></li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Charge/zeta/pH management</a>
+
+
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Starch Performance</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'packaging' , subname:'strength-management' , subsubname:'surfmax'}">SurfMAX</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Fiber Management</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">Consistency Performance</a></li>
+                                            <li><a class="dropdown-item" href="#">Online Analyzers</a></li>
+                                            <li><a class="dropdown-item" href="#">ReelTime</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Paper Properties Performance</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">ReelTime</a></li>
+
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Operational intelligence</a>
+
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Data Historian</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'operational-intelligence' , subsubname:'dataprc'}">dataPARC</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Remote Support</a>
+
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">SMART Monitoring</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Loop Monitoring</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'control-loop-performance-management' , subsubname:'controlsuite'}">CONTROLsuite</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Predictive Modelling</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">ReelTime</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+
+                                </ul>
+
+
+
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item " href="#">Advanced Process
+                                    Controls</a>
+
+
+                                <ul class="dropdown-menu">
+
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Wet End Control</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">MACSash</a></li>
+                                            <li><a class="dropdown-item" href="#">MACS wet end suite</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Starch Control</a>
+
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">MACSstarch</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Paper Properties Control</a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="#">MACSstrength</a></li>
+                                            <li><a class="dropdown-item" href="#">MACSsurface</a></li>
+
+
+
+
+                                        </ul>
+
+                                    </li>
+
+
+
+                                </ul>
+
+
                             </li>
 
                         </ul>
                     </li>
+                    <!-- graphic end -->
 
                     <li class="nav-item dropdown border-right border-dark">
                         <a class="nav-link mx-2" href="http://example.com" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">More Industries</a>
