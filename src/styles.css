@@ -37,3 +37,13 @@ footer ul li {
     margin: 10px 0;
     ;
 }
+
+.prodry-data-sheet {
+    text-align: center;
+    background-image: url('assets/datasheet/prodrydatasheet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    margin: 10px 0;
+    ;
+}
