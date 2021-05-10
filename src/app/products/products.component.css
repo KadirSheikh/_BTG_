@@ -16,3 +16,7 @@ img {
 li {
     margin-left: 2% !important;
 }
+
+p {
+    text-align: justify !important;
+}

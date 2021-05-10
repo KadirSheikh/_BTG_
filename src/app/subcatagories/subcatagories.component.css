@@ -44,3 +44,7 @@ strong:hover {
     padding: 10px 10px;
     border-radius: 2px;
 }
+
+p {
+    text-align: justify !important;
+}

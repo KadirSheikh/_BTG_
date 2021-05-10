@@ -83,3 +83,7 @@ a:hover,
     color: var(--danger) !important;
     text-decoration: underline !important;
 }
+
+p {
+    text-align: justify !important;
+}

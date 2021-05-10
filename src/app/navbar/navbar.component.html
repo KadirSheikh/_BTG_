@@ -544,21 +544,6 @@
 
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu">
-                                        <a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control' , subsubname:'instrument'}">
-                                            Instrument
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MEK-3000' }">MEK</a></li>
-                                            <li><a class="dropdown-item" href="#">MBT</a></li>
-                                            <li><a class="dropdown-item" href="#">TCR</a></li>
-                                            <li><a class="dropdown-item" href="#">TCT</a></li>
-                                            <li><a class="dropdown-item" href="#">SBT</a></li>
-                                            <li><a class="dropdown-item" href="#">MIC</a></li>
-                                            <li><a class="dropdown-item" href="#">RET</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
                                         <a class="dropdown-item" routerLink="/consistency-control">
                                             Expertise
                                         </a>
@@ -573,6 +558,24 @@
                                             Full service
                                         </a>
                                     </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item" routerLink="/sub-subcatagory/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control' , subsubname:'instrument'}">
+                                            Instrument
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" routerLink="/product/1" [queryParams]="{catname : 'tissue' , subname:'consistency-control', subsubname:'instrument' , pname : 'MEK-3000' }">MEK</a></li>
+                                            <li><a class="dropdown-item" href="#">MBT</a></li>
+                                            <li><a class="dropdown-item" href="#">TCR</a></li>
+                                            <li><a class="dropdown-item" href="#">TCT</a></li>
+                                            <li><a class="dropdown-item" href="#">SBT</a></li>
+                                            <li><a class="dropdown-item" href="#">MIC</a></li>
+                                            <li><a class="dropdown-item" href="#">RET</a></li>
+                                        </ul>
+                                    </li>
+
+
+
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
