@@ -8,10 +8,16 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class SubcatagoriesComponent implements OnInit {
 
-  data:any = {
+  data:any = [{
     "heading":"Consistency Control",
     "subheading":"Optimize pulp & paper productivity through accurate consistency management as fundamental for improved economic benefits."
-  }
+  },
+  {
+    "heading":"Creping"
+  },
+  {
+    "heading":"Operational Safety"
+  }]
 
   catName:any;
   subCatName:any;

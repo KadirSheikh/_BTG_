@@ -17,7 +17,7 @@
     </div>
 </section> -->
 
-<section id="careers">
+<!-- <section id="careers">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active text-dark">
@@ -33,11 +33,16 @@
 
         </div>
     </div>
-</section>
+</section> -->
+
+<div class="red-title-banner">
+    <h2 class="text-white" [hidden]="hiddenSection">News and Press Release</h2>
+    <h4 class="text-capitalize text-center text-white" [hidden]="!hiddenSection">{{ news[dataId].heading }}</h4>
+</div>
 
 
 <section style="padding: 100px 0;" [hidden]="hiddenSection">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row mx-auto">
             <div class="col-sm-12 border-right">
                 <div class="row mx-auto">
@@ -55,24 +60,23 @@
                         </div>
                     </div> -->
 
-                    <div *ngFor="let n of news" class="col-sm-3">
+                    <div *ngFor="let n of news" class="col-sm-4">
                         <div class="card rounded-0 border-0 mx-2 my-2">
-                            <img class="card-img-top" src="../../../../assets/hero/news.png" alt="Card image cap">
-                            <div class="card-body ">
-                                <a routerLink='/news_and_events/{{ n.id }}'><button class="btn btn-danger rounded-0"
-                                        style="position: relative; margin-top: -55%; margin-left: -9.5%;">
-                                        <h3>></h3>
-                                    </button></a>
-                                <div class="p-2" style="position: relative; margin-top: -20%; margin-left: -9.9%; background-color: white;">
+                            <a routerLink='/news_and_events/{{ n.id }}'>
+                                <img class="card-img-top" src="../../../../assets/hero/news.png" alt="Card image cap">
+                                <div class="card-body ">
 
-                                    <h6 class="card-title">{{ n.heading }}</h6>
-                                    <p class="description">{{ n.description }}</p>
+                                    <div class="p-2" style="position: relative; margin-top: -20%; margin-left: -9.9%; background-color: white;">
 
-                                    <small class="card-text">26 Sep 2021</small>
+                                        <h6 class="card-title">{{ n.heading }}</h6>
+                                        <p class="description">{{ n.description }}</p>
+
+                                        <small class="card-text">26 Sep 2021</small>
+                                        <a href="" class="float-right text-danger">Read More...</a>
+                                    </div>
 
                                 </div>
-
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -33,3 +33,8 @@ small {
     text-align: justify;
     /* padding-right: 10%; */
 }
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}

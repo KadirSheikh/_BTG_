@@ -1,89 +1,74 @@
-<!-- <section id="careers">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active text-dark">
-                <div style="height: 35vh; background-color: var(--danger) ;background-size: cover ; background-repeat: no-repeat;  ">
-                    <div class="container text-center slide1" style="position: relative; top: 65%;">
+<div *ngIf="catName=='tissue' && subCatName=='consistency-control'">
 
-                        <h2 class="text-white">{{data.heading}}</h2>
-                        <h6 class="text-capitalize text-center text-white">{{data.subheading}}</h6>
+
+    <div class="red-title-banner">
+        <h2 class="text-white">{{data[0].heading}}</h2>
+        <h6 class="text-capitalize text-center text-white">{{data[0].subheading}}</h6>
+    </div>
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-sm-6">
+
+                    <div class="hoverr">
+
+                        <strong>Why Consistency?</strong>
+                        <p class="text-justify">Consistency is the foundational parameter in all pulp and paper making processes to manage mass flow at a target consistency.</p>
                     </div>
 
-                </div>
-            </div>
+                    <div class="hoverr">
+                        <strong>What is Consistency?</strong>
+                        <p class="text-justify">Consistency is defined by the total content of dry solids in the pulp slurry, the slurry being made of water, fibers, fines and fillers. In other words, this is the weight of suspended solids per litre of liquid, and can be summarized
+                            as:
+                        </p>
+                        <div class="d-inline">Total consistency (%) =</div>
+                        <div class="fraction " top="dry weight of sample" bottom="total weight of sample"></div>
+                        <div class="d-inline"> x 100</div>
+                        <br><br>
+                        <p>Watch the <b><a href="https://youtu.be/-7BXl-_DiPo" target="_blank" class="text-danger">Consistency basics</a></b> video.</p>
+                    </div>
 
-        </div>
-    </div>
-</section> -->
 
-<div class="red-title-banner">
-    <h2 class="text-white">{{data.heading}}</h2>
-    <h6 class="text-capitalize text-center text-white">{{data.subheading}}</h6>
-</div>
 
-<section style="padding: 100px 0;">
-    <div class="container">
-        <div class="row mx-auto">
-            <div class="col-sm-6">
-
-                <div class="hoverr">
-
-                    <strong>Why Consistency?</strong>
-                    <p class="text-justify">Consistency is the foundational parameter in all pulp and paper making processes to manage mass flow at a target consistency.</p>
                 </div>
 
-                <div class="hoverr">
-                    <strong>What is Consistency?</strong>
-                    <p class="text-justify">Consistency is defined by the total content of dry solids in the pulp slurry, the slurry being made of water, fibers, fines and fillers. In other words, this is the weight of suspended solids per litre of liquid, and can be summarized
-                        as:
-                    </p>
-                    <div class="d-inline">Total consistency (%) =</div>
-                    <div class="fraction " top="dry weight of sample" bottom="total weight of sample"></div>
-                    <div class="d-inline"> x 100</div>
-                    <br><br>
-                    <p>Watch the <b><a href="https://youtu.be/-7BXl-_DiPo" target="_blank" class="text-danger">Consistency basics</a></b> video.</p>
+                <div class="col-sm-6">
+
+                    <div class="hoverr">
+                        <strong>What BTG does? BTG makes it easy!</strong>
+
+                        <p class="text-justify">BTG is the market leader in consistency solutions. BTG is offering a portfolio of solutions, to meet all possible situations and challenges. The solutions are a combination of appropriate instruments, strong expertise, relevant
+                            service and right software. There is not one size fits all! Together with you, and depending on your situation and your objectives, our experts will define what is the best solution for you.</p>
+                    </div>
+
+                    <div class="hoverr">
+                        <strong>Why Consistency Control is Very Important?</strong>
+                        <p>Poor consistency control leads to quality variability!</p>
+                    </div>
+
+                    <div class="hoverr">
+                        <strong>Economic Advantage?</strong>
+                        <p>Savings can range from $50,000 -$400,000</p>
+                    </div>
                 </div>
 
+                <div class="col-sm-6">
+                    <div class="justify-content-center  text-center mt-4 pt-4" style="padding: 50px 0;">
+                        <img src="../../assets/cc-bro.jpeg" class="col-sm-6" alt="">
+                        <br />
+                        <br />
 
-
-            </div>
-
-            <div class="col-sm-6">
-
-                <div class="hoverr">
-                    <strong>What BTG does? BTG makes it easy!</strong>
-
-                    <p class="text-justify">BTG is the market leader in consistency solutions. BTG is offering a portfolio of solutions, to meet all possible situations and challenges. The solutions are a combination of appropriate instruments, strong expertise, relevant service
-                        and right software. There is not one size fits all! Together with you, and depending on your situation and your objectives, our experts will define what is the best solution for you.</p>
+                    </div>
                 </div>
-
-                <div class="hoverr">
-                    <strong>Why Consistency Control is Very Important?</strong>
-                    <p>Poor consistency control leads to quality variability!</p>
-                </div>
-
-                <div class="hoverr">
-                    <strong>Economic Advantage?</strong>
-                    <p>Savings can range from $50,000 -$400,000</p>
-                </div>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="justify-content-center  text-center mt-4 pt-4" style="padding: 50px 0;">
-                    <img src="../../assets/cc-bro.jpeg" class="col-sm-6" alt="">
-                    <br />
-                    <br />
-
-                </div>
-            </div>
-            <div class="col-sm-6 align-self-center  text-center mt-4 pt-4">
-                <a href="#" class="text-danger" style="font-weight: 700;"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;Download & read the Consistency Solutions Brochure
+                <div class="col-sm-6 align-self-center  text-center mt-4 pt-4">
+                    <a href="#" class="text-danger" style="font-weight: 700;"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;Download & read the Consistency Solutions Brochure
                 </a>
+                </div>
             </div>
-        </div>
 
 
-        <!-- <div class="justify-content-center text-center mt-4 pt-4" style="padding: 20px 0;">
+            <!-- <div class="justify-content-center text-center mt-4 pt-4" style="padding: 20px 0;">
             <h4>This solution uses</h4>
 
             <div class="row mx-auto mt-4 py-4">
@@ -146,11 +131,11 @@
         </div> -->
 
 
-    </div>
-</section>
+        </div>
+    </section>
 
-<br><br><br>
-<!-- <section class="bg-light" style="padding: 100px 0;">
+    <br><br><br>
+    <!-- <section class="bg-light" style="padding: 100px 0;">
     <div class="container">
         <h3 class="text-center">Our featured solutions</h3>
         <p class="text-center no-wrap">
@@ -234,5 +219,131 @@
         </div>
     </div>
 </section> -->
+</div>
 
+<div *ngIf="catName=='tissue' && subCatName=='creping'">
+    <div class="red-title-banner">
+        <h2 class="text-white">{{data[1].heading}}</h2>
+        <h6 class="text-capitalize text-center text-white">{{data[1].subheading}}</h6>
+    </div>
+
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-sm-6">
+
+                    <div class="hoverr">
+
+                        <strong>What is Creping?</strong>
+                        <p class="text-justify">Creping is the fundamental part of the tissue process: taking the flat sheet and adding the 3-D crepe structive to give the bulk, absorbency and handfeel properties tissue customers require by a combination of chemical and mechanical
+                            actors.
+                        </p>
+                    </div>
+
+                    <div class="hoverr">
+                        <strong>Benefits</strong>
+                        <p class="text-justify">Any tissue application can reap the benefits of high-performance Duroblade. Whether you are producing toilet tissue, facial, napkins or coffee filters, with the right doctor blade you can:</p>
+
+                        <ul>
+                            <li>maintain even tissue quality over blade lifetime,</li>
+                            <li>improve your production quality and quantity,</li>
+                            <li>reach substantially longer blade lifetimes,</li>
+                            <li>increase your process efficiency and lower your costs</li>
+                        </ul>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-sm-6">
+
+                    <div class="hoverr">
+                        <strong>What BTG does? BTG makes it easy!</strong>
+
+                        <p class="text-justify">BTG is the inventor and producer of the original high-performance ceramic doctor blade, Duroblade, and also the manufacturer of the unique creping blade holder CBC™. Thanks to our long experience as a supplier of high-performance
+                            blades, combined with our expertise as a blade holder manufacturer, we today hold a position of creping specialist. Our creping experts are at your disposal to help you get the most out of your Duroblade, hence ensuring the
+                            best operation, in the safest conditions for your personnel and equipment</p>
+                    </div>
+
+                    <div class="hoverr">
+                        <strong>Why use High Performance Creping Solutions?</strong>
+                        <p>High performance creping replaces the traditional steel doctor with a ceramic or carbide treated material for longer run time and improved tissue quality properties.</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<div *ngIf="catName=='tissue' && subCatName=='operational-safety'">
+    <div class="red-title-banner">
+        <h2 class="text-white">{{data[2].heading}}</h2>
+
+    </div>
+
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-sm-6">
+
+                    <div class="hoverr">
+
+                        <strong>What is Operational Safety?</strong>
+                        <p class="text-justify">Operational Safety encompasses the protection of humans and equipment against imminent or potential damages and therefore uninterrupted operation of your assets. Specifically, BTG’s Vigilance™ online vibration monitoring and analysis,
+                            PROfile specialist doctor holder service and PROdry Yankee dryer analysis help you maintain the high performance of your operational assets and troubleshoot potential issues before asset damage is incurred. Additional expertise
+                            like Yankee internal & external inspection, OTR and metallization services are available through the Voith Group of companies.
+                        </p>
+                    </div>
+
+                    <div class="hoverr mt-5">
+                        <strong>Why BTG?</strong>
+                        <p class="text-justify">We are your single source to help you reduce unplanned interruptions of your production and extend the intervals between planned maintenance stops significantly. Saving you time and resource while stabilizing your output. From
+                            failure prediction and failure protection to extension of asset lifetime we provide longstanding expertise in combination with state-of-the-art technology.</p>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-sm-6">
+
+
+                    <div class="hoverr">
+                        <strong>Why it is sustainable?</strong>
+                        <p class="text-justify">
+                            At BTG we work to ensure things last! <br> <br> Safe operations mean safe people, so everyone leaves for home in the same healthy condition as they arrived at work. <br> <br> Less unplanned interruptions, more predictability
+                            are the pillars to reduced urgent reactive activities around your assets and to reduce the risk to unconsciously engage in risky situations. <br> <br> Our Operational Safety products and solutions help reduce wear and tear
+                            leading to higher reliability and lifetime of your equipment. <br> <br> Improved production stability increases on-target output and therefore reduce production waste in papermaking, and converting <br> <br> State-of-the-art
+                            technology combined with capability building through subject matter experts, BTG provides the hard and soft tools to help you help yourself understand the ups and downs of your process and to take the right measures at the
+                            right time.
+                            <br>
+                        </p>
+
+
+                    </div>
+
+                    <div class="hoverr">
+                        <strong>Economic advantage</strong>
+
+                        <p class="text-justify">Savings range from € 20.000 – € 300.000</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
 <app-footer></app-footer>

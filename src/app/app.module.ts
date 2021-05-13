@@ -20,6 +20,9 @@ import { SubcatagoriesComponent } from './subcatagories/subcatagories.component'
 import { ProductsComponent } from './products/products.component';
 import { SubSubCatagoryComponent } from './sub-sub-catagory/sub-sub-catagory.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { EventsComponent } from './events/events.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { HttpClientModule } from '@angular/common/http';
     CatagoriesComponent,
     SubcatagoriesComponent,
     ProductsComponent,
-    SubSubCatagoryComponent
+    SubSubCatagoryComponent,
+    ComingSoonComponent,
+    EventsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

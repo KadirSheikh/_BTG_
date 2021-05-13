@@ -277,6 +277,107 @@ export class ProductsComponent implements OnInit {
               specification:[`Measuring range 5-5000ppm`,
               `1 sampling point`,
               `New value every 4-5 minutes`]
+    },
+    {
+      image:'../../assets/instrument_pro/PCD-05.png',
+      name:"PCD-05 Particle Charge Detector",
+      description:`The Mütek™ PCD-05 Particle Charge Detector Smart measures the charge of colloidal dissolved substances in an aqueous sample.<br/>
+      The PCD-05 Smart offers a modular concept. It comes with an automatic titrator, the Travel Titrator module, and a small display, the Smart display.<br/>
+      An integrated WLAN access point and a LAN connection port allow working with the PCD-05 Smart via various user devices such as a smartphone, tablet, laptop or a workstation.<br/>
+      The Smartdisplay hosts the web-based application pages to fully apply and parametrize the PCD-05 Smart as well as to manage data. These pages are accessible with a user device’s web browser. Time consuming IT sessions for installing software or USB drivers can thus be avoided.<br/>
+      The Smartdisplay features the most basic functions required to work with the PCD-05 Smart, like streaming potential measurement, titration and pH measurement (optional) also when no user device such as a smartphone or similar is connected.<br/>`,
+      benefits:[`Streaming current detector in modular set-up`,
+                `WLAN interface`,
+                `Full operation via smartphone, tablet or laptop`,
+                `Selective – measures peroxide only`,
+                `Basic operation via included Smart display`, 
+                `Travel Titrator module `,
+                `Open tube system to use alternative titrants directly from their bottles`],
+
+              specification:[
+                `Particle sizes in the sample between 1 nm and 500 μm.`,
+                `Sample volume 10 – 60 ml`
+              ]
+    },
+    {
+      image:'../../assets/instrument_pro/SZP-10.png',
+      name:"SZP-10 System Zeta Potential",
+      description:`The Mütek™ SZP-10 System Zeta Potential identifies the surface charges of fibers, pigments and other solid materials. Measuring samples before and after chemical contact, it evaluates the performance of e.g. wet strength agents, sizing agents, dispersants or coatings in a manufacturing process.<br/>
+      The SZP-10 is a well accepted standard tool for chemical suppliers of the pulp and paper industry, especially because it measures process samples without further sample preparation, as would be necessary, e.g. for electrophoresis.<br/>
+      The device has been successfully employed to assess chemical additives in the papermaking process as well as for evaluating filter aids for beverages, other separation technologies or to control textile finishing.<br/>
+      The Mütek™ SZP-10 System Zeta Potential detects the surface charge of solid materials. The surface charge is the overall charge of a solid particle in an aqueous system. This charge influences the interaction of the sample material with chemical additives.`,
+      benefits:[`Streaming current detector in modular set-up`,
+                `WLAN interface`,
+                `Full operation via smartphone, tablet or laptop`,
+                `Selective – measures peroxide only`,
+                `Basic operation via included Smart display`, 
+                `Travel Titrator module `,
+                `Open tube system to use alternative titrants directly from their bottles`],
+
+              specification:[
+                `Particle sizes in the sample between 1 nm and 500 μm.`,
+                `Sample volume 10 – 60 ml`
+              ]
+    },
+    {
+      image:'../../assets/instrument_pro/DFR-05.png',
+      name:"DFR-05 Drainage Freeness Retention",
+      description:`The lab device MütekTM DFR-05 Drainage Freeness Retention simulates the retention and drainage conditions prevailing in a paper machine immediately before and during sheet forming. This enables a systematical assessment of chemical influences. Chemical addition is fully automatic via an integrated dosing module.<br/>
+      The optionally available RET-20 Lab Sensor directly measures the filtrate consistency, making a time consuming manual determination of stock and ash consistencies superfluous.<br/>
+      The drainage behavior is characterized by gravimetry of the filtrate volume. Besides, the Schopper-Riegler freeness can be determined from which the Canadian Standard Freeness (CSF) may be calculated applying a correlation.<br/>`,
+      benefits:[`RET-20 Lab sensor for consistency measurements`,
+                `Dosing module`,
+                `Automated separation of pre-filtrate `,
+                `Identical shear conditions for retention and drainage measurements`],
+
+              specification:[
+                `Results Total retention [%], Filler/fines retention [%], Total consistency [g/l], Filler/fines consistency [g/l], Flocculation index, Drainage curve[g/s] or [g/s²], Schopper-Riegler [°SR], Canadian Standard Freeness [ml]`
+              ]
+    },
+    {
+      image:'../../assets/instrument_pro/VBW-1100.png',
+      name:"VBW-1100 Basis Weight Valve",
+      description:`The BTG Basis Weight Valve is designed for precision control of the pulp flow to the paper machine.<br/>
+      It is distinguished by its extremely high accuracy and resolution in process conditions. The virtually linear characteristic of the valve made by SOMAS makes it ideal for precision control.<br/>
+      The design has proven to be extremely reliable in numerous installations worldwide.<br/>`,
+      benefits:[`High resolution - accurate flow control`,
+                `Actuator and valve combined are virtually free from stiction and backlash to obtain highest repeatability`],
+
+              specification:[
+                `Resolution better than 5000:1`,
+                `Valve diameter DN40 [1,5”] to DN350 [14”]`
+              ]
+    },
+    {
+      image:'../../assets/instrument_pro/btg.png',
+      name:"BT-5500 Brightness Transmitter",
+      description:`The BT-55 series comprises the BT-5500, BT-5510 and BT-5520 brightness transmitters. These transmitters are designed for monitoring and control of bleaching chemicals, optical brightening agents (OBA) and dyes in mechanical pulps, chemical pulps, recycled fiber and paper machine applications.<br/>
+      The three transmitters differ from each other by their size due to the length of the sensor probe.<br/>
+      The BT-5500 and BT-5520 are suitable for all standard applications. The BT-5510 is especially designed for large wall thicknesses and retrofits of existing sensors.<br/>
+      The transmitters are installed in-line without any special bypass arrangement and provide continuous real time results. All feature a unique low-maintenance probe. The BT-5500 and BT-5510 are mounted through a ball valve assembly (SS or titanium grade 2 and also 254SMO for BT-5500) to a weld-in or FRP stud and are fitted with a retraction mechanism for online removal of the sensor. The light variant, the BT-5520, is mounted directly to a weld-on stud and does not have a retraction mechanism. <br/>`,
+      benefits:[`Measure's brightness, color (L*a*b*) and ERIC`,
+                `Mounting studs in SS, Ti, SMO and FRP`,
+                `Low weight and lean design`],
+
+              specification:[
+                `Brightness 5 – 96 %ISO`
+              ]
+    },
+    {
+      image:'../../assets/instrument_pro/mbt-4500.png',
+      name:"MBT-4500 Viscosity Transmitter",
+      description:`The MBT-4500 is an in-line viscosity transmitter designed for use in demanding applications. The transmitter has a wide range of applications and can be used for measurement of glue, paint, slurries, sugar solutions, oil, coating mix, food, etc. It is also suitable for use in somewhat abrasive media.`,
+      benefits:[`Inline measurement`,
+                `For all types of media`,
+                `Sturdy design, few movable parts`,
+                `Easy installation, setup, and calibration`],
+
+              specification:[
+                `Measuring range: 10 – 100,000 cP`,
+                `Min span 50 cP`,
+                `Max span 100,000 cP`,
+                `Particle size limits: Max Ø 1 – 6 mm [0.04 – 0.2"], depending on selected measuring basket`,
+              ]
     }
   ]
 

@@ -6,6 +6,8 @@ import { HistoryComponent } from './about/history/history.component';
 import { WhistleblowingComponent } from './about/whistleblowing/whistleblowing.component';
 import { CareersComponent } from './careers/careers.component';
 import { CatagoriesComponent } from './catagories/catagories.component';
+import { ContactComponent } from './contact/contact.component';
+import { EventsComponent } from './events/events.component';
 import { HomeComponent } from './home/home.component';
 import { NewsEventsComponent } from './news-events/news-events.component';
 import { ProductsComponent } from './products/products.component';
@@ -28,7 +30,9 @@ const routes: Routes = [
   { path: 'catagory/:id', component: CatagoriesComponent },
   { path: 'subcatagory/:id', component: SubcatagoriesComponent },
   { path: 'sub-subcatagory/:id', component: SubSubCatagoryComponent },
-  { path: 'product/:id', component: ProductsComponent }
+  { path: 'product/:id', component: ProductsComponent },
+  {path:'event' , component:EventsComponent},
+  {path:'contact' , component:ContactComponent}
 ];
 
 @NgModule({
