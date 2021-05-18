@@ -186,7 +186,7 @@ export class ProductsComponent implements OnInit {
     },
     {
       image:'../../assets/instrument_pro/spc-5550.png',
-      name:"SPC-5550 Single Point Morphology Analyzer",
+      name:"SPM-5550 Single Point Morphology Analyzer",
       description:`BTG’s  Single  Point  Morphology  analyzer, SPM-5550,    is    an on-line    analyzer    measuring    the geometrical  pulp  properties  such  as  length,  width, shape  for  fibers,  fines, and  other  objects such  as shives.<br/>
       The  SPM-5550  is  installed  directly  on  the  process pipe   and   an   integrated   robust   sampling   device extracts  representative  pulp  samples  under  actual process conditions providing real time results, and it can thus be used for effective process control of key process stages such as refining and screening.<br/>
       Fiber morphology data can be applied for predictions of other pulp and paper properties such as freeness and strength.
