@@ -30,10 +30,7 @@ export class SubcatagoriesComponent implements OnInit {
       this.catName = params['catname'];
       this.subCatName = params['subname'];
 
-      // console.log(this.catName);
       
-      // console.log(this.subCatName);
-
       
     })
   }
